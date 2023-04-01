@@ -2,9 +2,7 @@
 
 <p align="center">
   <img src="https://shields.io/badge/python-3.11.2-3776AB?logo=python&style=flat">
-  <img src="https://shields.io/badge/django-4.1.7-092E20?logo=django&style=flat">
-  <img src="https://shields.io/badge/flask-2.2.3-000000?logo=flask&style=flat">
-  <img src="https://shields.io/badge/fastapi-0.95.0-009688?logo=fastapi&style=flat">
+  <img src="https://shields.io/badge/cinemagoer-2022.12.27-F5C518?logo=imdb&style=flat">
 </p>
 
 
