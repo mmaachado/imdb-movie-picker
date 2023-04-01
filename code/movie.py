@@ -6,21 +6,27 @@ load_dotenv()
 
 API_KEY = os.getenv('API_KEY')
 
-# tmdb = TMDb()
-# tmdb.api_key = API_KEY
-# tmdb.language = 'pt'
-# tmdb.debug = True
 
-# movie = Movie()
+def start_tmdb():
 
-# popular = movie.popular()
+    tmdb = TMDb()
+    tmdb.api_key = API_KEY
+    tmdb.language = 'pt'
+    tmdb.debug = True
 
-# for p in popular:
-#     # print(p.id)
-#     print(p.title)
+    movie = Movie()
 
-movie_list = []
+    popular = movie.popular()
+
+    for p in popular:
+        # print(p.id)
+        print(p.title)
 
 
-movie_input = input('Tell me a movie:\n')
-movie_list.append(movie_input)
+def input_movie() -> list:
+    movie_list = []
+
+    movie_input = input('Tell me a movie:\n')
+    movie_list.append(movie_input)
+
+    return movie_list

@@ -1,1 +1,2 @@
-cinemagoer==2022.12.27
+python-dotenv==1.0.0
+tmdbv3api==1.7.7

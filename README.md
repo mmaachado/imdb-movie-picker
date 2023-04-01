@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://shields.io/badge/python-3.11.2-3776AB?logo=python&style=flat">
-  <img src="https://shields.io/badge/cinemagoer-2022.12.27-F5C518?logo=imdb&style=flat">
+  <img src="https://shields.io/badge/tmdbv3api-1.7.7-01B4E4?logo=themoviedatabase&style=flat">
 </p>
 
 
@@ -27,7 +27,7 @@ let python decide wich movie you should watch next.
 
 ## 🌟 features
 
-* using [cinemagoer](https://cinemagoer.github.io/) api;
+* using [tmdbv3api](https://github.com/AnthonyBloomer/tmdbv3api) api;
 * input as many movies you want to watch, python will choose one for you;
 
 
