@@ -1,12 +1,26 @@
-import imdb
+from tmdbv3api import Movie, TMDb
+import os
+from dotenv import load_dotenv
 
-ia = imdb.Cinemagoer()
+load_dotenv()
+
+API_KEY = os.getenv('API_KEY')
+
+# tmdb = TMDb()
+# tmdb.api_key = API_KEY
+# tmdb.language = 'pt'
+# tmdb.debug = True
+
+# movie = Movie()
+
+# popular = movie.popular()
+
+# for p in popular:
+#     # print(p.id)
+#     print(p.title)
 
 movie_list = []
 
 
-movies = ia.search_movie(input('Movie name: '))
-movie_list.append(movies)
-title = movies[0]['title']
-director = movies['directors']
-genres = movies['genres']
+movie_input = input('Tell me a movie:\n')
+movie_list.append(movie_input)
